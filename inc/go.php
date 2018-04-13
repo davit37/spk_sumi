@@ -5,8 +5,11 @@ if(isset($_GET['page'])){
 		case 'barang_add':
 			include 'page/barang_add.php';
 			break;
-		case 'admin_add':
-			include 'page/admin_add.php';
+		case 'barang_data':
+			include 'page/barang_data.php';
+			break;
+		case 'barang_edit':
+			include 'page/barang_edit.php';
 			break;
 		default:
 			echo"Halaman Tidak Ditemukan";

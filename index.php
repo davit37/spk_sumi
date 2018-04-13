@@ -29,7 +29,7 @@
                     aria-expanded="false">Barang</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownBarang">
                             <a class="dropdown-item" href="?page=barang_add">Tambah</a>
-                            <a class="dropdown-item" href="#">Pendataan</a>
+                            <a class="dropdown-item" href="?page=barang_data">Data Barang</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
@@ -68,6 +68,9 @@
     <script src="asset/jquery/jquery.slim.min.js"></script>
     <script src="asset/popper.js/popper.min.js"></script>
     <script src="asset/bootstrap/js/bootstrap.min.js" ></script>
+    <script defer src="asset/font-awesome/js/fontawesome-all.min.js" ></script>
+    <script src="asset/sweetalert2.js"></script>
+    <script src="asset/script/app.js"></script>
 </body>
 
 </html>
